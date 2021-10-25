@@ -1,14 +1,17 @@
 declare -x CYGPATH="$PATH"
 source "C:/CGAL_ROOT/CGAL-REF/MSVC2017-Debug-64bits/setup_platform"
-export INIT_FILE="C://cgal_root//CGAL-REF//MSVC2017-Debug-64bits.cmake"
+export INIT_FILE="C://CGAL_ROOT//CGAL-REF//MSVC2017-Debug-64bits.cmake"
 export CONFIG_TYPE=Debug
 
-PATH="C:/dev/tbb2019_20191006oss_win/tbb2019_20191006oss/bin/intel64/vc14":$PATH
-PATH="C:/dev/CGAL-5.3-win64-auxiliary-libraries-gmp-mpfr/auxiliary/gmp/lib":$PATH
-PATH="C:/dev/cygwin64/bin":$PATH
-PATH="C:/dev/zlib-1.2.11/build/Debug":$PATH
-PATH="C:/dev/boost_1_66_0/lib64-msvc-14.1":$PATH
-PATH="C:/dev/Qt/5.15.2/msvc2015_64/bin":$PATH
+declare -x BOOST_LIBRARYDIR="cygpath `C:\dev\boost_1_66_0\lib64-msvc-14.1`"
+
+PATH="`cygpath C:/dev/tbb2019_20191006oss_win/tbb2019_20191006oss/bin/intel64/vc14`":$PATH
+PATH="`cygpath C:/dev/CGAL-5.3-win64-auxiliary-libraries-gmp-mpfr/auxiliary/gmp/lib`":$PATH
+PATH="`cygpath C:/dev/cygwin64/bin`":$PATH
+PATH="`cygpath C:/dev/zlib-1.2.11/build/Debug`":$PATH
+PATH="`cygpath C:/dev/boost_1_66_0/lib64-msvc-14.1`":$PATH
+PATH="`cygpath C:/Qt/5.15.2/msvc2015_64/bin`":$PATH
+PATH="`cygpath C:/dev/CMake/bin`":$PATH
 #/usr/lib/lapack
 #/cygdrive/c/dev/osqp/install/bin
 declare -x PATH=$CYGPATH:$PATH

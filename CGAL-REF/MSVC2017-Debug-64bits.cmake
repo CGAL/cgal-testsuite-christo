@@ -2,7 +2,7 @@ SET(ITK_DIR "C:/dev/InsightToolkit-5.2.0/CMake" CACHE PATH "")
 
 SET(TBB_DIR "C:/dev/tbb2019_20191006oss_win/tbb2019_20191006oss/cmake" CACHE PATH "")
 
-SET(Qt5_DIR "C:/dev/Qt/5.15.2/msvc2015_64/lib/cmake/Qt5" CACHE PATH "")
+SET(Qt5_DIR "C:/Qt/5.15.2/msvc2015_64/lib/cmake/Qt5" CACHE PATH "")
 
 SET(EIGEN3_INCLUDE_DIR "C:/dev/eigen-3.4.0" CACHE PATH "")
 
@@ -20,11 +20,11 @@ SET(MPFR_LIBRARIES "C:/dev/CGAL-5.3-win64-auxiliary-libraries-gmp-mpfr/auxiliary
 
 SET(BOOST_ROOT "C:/dev/boost_1_66_0" CACHE PATH "")
 
-SET(ZLIB_INCLUDE_DIR "C:/dev/zlib-1.2.11" CACHE PATH "")
+SET(ZLIB_INCLUDE_DIR "C:/dev/zlib-1.2.11;C:/dev/zlib-1.2.11/build" CACHE PATH "")
 
 SET(CMAKE_BUILD_TYPE "Debug" CACHE STRING "")
 
-SET(CMAKE_CXX_FLAGS "/W3 /GR /EHsc /fp:strict /fp:except- /wd4503 /bigobj /MD /experimental:external /external:I C:/dev/boost_1_66_0 /external:W0 -DCGAL_INCLUDE_WINDOWS_DOT_H -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS" CACHE STRING "")
+SET(CMAKE_CXX_FLAGS "/W3 /GR /EHsc /fp:strict /fp:except- /wd4503 /bigobj /MD -DCGAL_INCLUDE_WINDOWS_DOT_H -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS" CACHE STRING "")
 
 SET(CMAKE_CXX_FLAGS_DEBUG "" CACHE STRING "")
 
@@ -42,5 +42,4 @@ SET(WITH_NTL OFF CACHE BOOL "")
 
 SET(CMAKE_GENERATOR "Visual Studio 16 2019" CACHE STRING "")
 
-SET(CMAKE_GENERATOR_TOOLSET "v141")
-
+SET(CMAKE_GENERATOR_TOOLSET "v141" CACHE STRING "")
