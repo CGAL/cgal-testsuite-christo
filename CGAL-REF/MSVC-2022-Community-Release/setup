@@ -1,5 +1,5 @@
 declare -x CYGPATH="$PATH"
-source "C:/CGAL_ROOT/CGAL-REF/MSVC2022-Community-Release/setup_platform"
+source "C:/CGAL_ROOT/CGAL-REF/MSVC-2022-Community-Release/setup_platform"
 export INIT_FILE="C://CGAL_ROOT//CGAL-REF//MSVC-2022-Community-Release.cmake"
 export CONFIG_TYPE=Release
 
