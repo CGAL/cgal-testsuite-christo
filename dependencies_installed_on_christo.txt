@@ -1,6 +1,13 @@
 * Visual Studio Community 2019
 	vs 2015 toolset
 	vs 2017 toolset
+	
+* Visual Studio Community 2022
+	vs 2019 toolset
+	vs 2022 toolset
+	
+* Visual Studio Preview 2022
+	vs 2022 toolset
 
 * Git for Windows
 	https://gitforwindows.org/
