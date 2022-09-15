@@ -18,7 +18,8 @@ SET(MPFR_INCLUDE_DIR "C:/dev/CGAL-5.3-win64-auxiliary-libraries-gmp-mpfr/auxilia
 
 SET(MPFR_LIBRARIES "C:/dev/CGAL-5.3-win64-auxiliary-libraries-gmp-mpfr/auxiliary/gmp/lib/libmpfr-4.lib" CACHE PATH "")
 
-SET(BOOST_ROOT "C:/dev/boost_1_66_0" CACHE PATH "")
+SET(CMAKE_FIND_PACKAGE_SORT_ORDER "NATURAL" CACHE STRING "")
+SET(Boost_ROOT "C:/dev/boost/install_dir" CACHE PATH "")
 
 SET(ZLIB_INCLUDE_DIR "C:/dev/zlib-1.2.11;C:/dev/zlib-1.2.11/build" CACHE PATH "")
 

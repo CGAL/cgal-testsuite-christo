@@ -26,6 +26,12 @@
 	version 1.66.0 for msvc 14.1
 	downloaded from https://sourceforge.net/projects/boost/files/boost-binaries/1.66.0/
 	installed in C:\dev\boost_1_66_0
+	
+	version 1.79.0 for msvc-14.2
+	installed in C:\dev\boost_1_79_0
+	
+	master branch from https://github.com/boostorg/boost.git
+	installed in C:\dev\boost\install_dir
 
 * GMP and MPFR
 	downloaded from https://github.com/CGAL/cgal/releases/download/v5.3/CGAL-5.3-win64-auxiliary-libraries-gmp-mpfr.zip
