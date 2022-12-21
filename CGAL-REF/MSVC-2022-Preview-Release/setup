@@ -3,12 +3,13 @@ source "C:/CGAL_ROOT/CGAL-REF/MSVC-2022-Preview-Release/setup_platform"
 export INIT_FILE="C://CGAL_ROOT//CGAL-REF//MSVC-2022-Preview-Release.cmake"
 export CONFIG_TYPE=Release
 
+declare -x ZLIB_ROOT="`cygpath C:/dev/zlib-1.2.11/install`"
 declare -x BOOST_LIBRARYDIR="`cygpath C:/dev/boost/install_dir/lib`"
 
 PATH="`cygpath C:/dev/tbb2019_20191006oss_win/tbb2019_20191006oss/bin/intel64/vc14`":$PATH
 PATH="`cygpath C:/dev/CGAL-5.3-win64-auxiliary-libraries-gmp-mpfr/auxiliary/gmp/lib`":$PATH
 PATH="`cygpath C:/dev/cygwin64/bin`":$PATH
-PATH="`cygpath C:/dev/zlib-1.2.11/build/Release`":$PATH
+PATH="`cygpath C:/dev/zlib-1.2.11/install/bin`":$PATH
 PATH="`cygpath C:/Qt/5.15.2/msvc2015_64/bin`":$PATH
 PATH="`cygpath C:/dev/CMake/bin`":$PATH
 PATH=$BOOST_LIBRARYDIR:$PATH

@@ -21,7 +21,7 @@ SET(MPFR_LIBRARIES "C:/dev/CGAL-5.3-win64-auxiliary-libraries-gmp-mpfr/auxiliary
 SET(Boost_ROOT "C:/dev/boost_1_66_0" CACHE PATH "")
 SET(Boost_NO_BOOST_CMAKE ON CACHE BOOL "")
 
-SET(ZLIB_INCLUDE_DIR "C:/dev/zlib-1.2.11;C:/dev/zlib-1.2.11/build" CACHE PATH "")
+SET(ZLIB_INCLUDE_DIR "C:/dev/zlib-1.2.11/install/include;C:/dev/zlib-1.2.11/install" CACHE PATH "")
 
 SET(CMAKE_BUILD_TYPE "Debug" CACHE STRING "")
 
