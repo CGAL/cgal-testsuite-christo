@@ -1,4 +1,6 @@
-SET(ITK_DIR "C:/dev/InsightToolkit-5.2.0/CMake" CACHE PATH "")
+#SET(ITK_DIR "C:/dev/InsightToolkit-5.2.0/build" CACHE PATH "")
+
+SET(VTK_DIR "C:/dev/VTK-8.2.0/build" CACHE PATH "")
 
 SET(TBB_DIR "C:/dev/tbb2019_20191006oss_win/tbb2019_20191006oss/cmake" CACHE PATH "")
 
@@ -18,7 +20,7 @@ SET(MPFR_INCLUDE_DIR "C:/dev/CGAL-5.3-win64-auxiliary-libraries-gmp-mpfr/auxilia
 
 SET(MPFR_LIBRARIES "C:/dev/CGAL-5.3-win64-auxiliary-libraries-gmp-mpfr/auxiliary/gmp/lib/libmpfr-4.lib" CACHE PATH "")
 
-SET(Boost_ROOT "C:/dev/boost_1_66_0" CACHE PATH "")
+SET(Boost_ROOT "C:/dev/boost_1_70_0" CACHE PATH "")
 SET(Boost_NO_BOOST_CMAKE ON CACHE BOOL "")
 
 SET(ZLIB_INCLUDE_DIR "C:/dev/zlib-1.2.11/install/include;C:/dev/zlib-1.2.11/install" CACHE PATH "")
@@ -36,6 +38,7 @@ SET(CGAL_HEADER_ONLY ON CACHE BOOL "")
 SET(WITH_GMP ON CACHE BOOL "")
 
 SET(WITH_GMPXX OFF CACHE BOOL "")
+SET(CGAL_WITH_GMPXX OFF CACHE BOOL "")
 
 SET(WITH_MPFR ON CACHE BOOL "")
 
