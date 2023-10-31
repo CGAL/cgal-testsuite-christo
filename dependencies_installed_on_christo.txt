@@ -36,6 +36,8 @@
 * GMP and MPFR
 	downloaded from https://github.com/CGAL/cgal/releases/download/v5.3/CGAL-5.3-win64-auxiliary-libraries-gmp-mpfr.zip
 	installed in C:\dev\CGAL-5.3-win64-auxiliary-libraries-gmp-mpfr
+	
+	gmp-6.2.1 compiled with vcpkg for msvc
 
 * Eigen 3
 	downloaded from http://eigen.tuxfamily.org/index.php?title=Main_Page#Download

@@ -8,6 +8,16 @@ SET(Qt5_DIR "C:/Qt/5.15.2/msvc2015_64/lib/cmake/Qt5" CACHE PATH "")
 
 SET(EIGEN3_INCLUDE_DIR "C:/dev/eigen-3.4.0" CACHE PATH "")
 
+SET(SCIP_DIR "C:/dev/SCIP/lib/cmake/scip" CACHE PATH "")
+
+SET(Ceres_DIR "C:/dev/Ceres/lib/cmake/Ceres" CACHE PATH "")
+
+SET(OpenGR_DIR "C:/dev/OpenGR/lib/cmake/opengr" CACHE PATH "")
+
+SET(libpointmatcher_DIR "" CACHE PATH "")
+
+SET(libnabo_DIR "" CACHE PATH "")
+
 #SET(OSQP_INCLUDE_DIR "C:/dev/osqp/install/include" CACHE PATH "")
 
 #SET(OSQP_LIBRARIES "C:/dev/osqp/install/lib/osqp.lib" CACHE FILEPATH "")
