@@ -15,11 +15,13 @@ PATH="`cygpath C:/dev/SOPLEX/bin`":$PATH
 PATH=$BOOST_LIBRARYDIR:$PATH
 PATH=$VTK_BIN_DIR:$PATH
 PATH="`cygpath C:/Qt/5.15.2/msvc2015_64/bin`":$PATH
+PATH="`cygpath C:/dev/Qt6/6.6.0/msvc2019_64/bin`":$PATH
 PATH="`cygpath C:/dev/CMake/bin`":$PATH
 #/usr/lib/lapack
 #/cygdrive/c/dev/osqp/install/bin
 declare -x PATH=$CYGPATH:$PATH
 
 export Qt5_INSTALLATION_DIR="`cygpath C:/Qt/5.15.2/msvc2015_64`"
+export Qt6_INSTALLATION_DIR="`cygpath C:/dev/Qt6/6.6.0/msvc2019_64`"
 export COLLECT_DEMOS_BINARIES='y'
 export KEEP_TESTS=""

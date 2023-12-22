@@ -6,6 +6,8 @@ SET(TBB_DIR "C:/dev/tbb2019_20191006oss_win/tbb2019_20191006oss/cmake" CACHE PAT
 
 SET(Qt5_DIR "C:/Qt/5.15.2/msvc2015_64/lib/cmake/Qt5" CACHE PATH "")
 
+SET(Qt6_DIR "C:/dev/Qt6/6.6.0/msvc2019_64/lib/cmake/Qt6" CACHE PATH "")
+
 SET(EIGEN3_INCLUDE_DIR "C:/dev/eigen-3.4.0" CACHE PATH "")
 
 SET(SCIP_DIR "C:/dev/SCIP/lib/cmake/scip" CACHE PATH "")
@@ -18,9 +20,9 @@ SET(libpointmatcher_DIR "C:/dev/libpoint_matcher_rel/share/libpointmatcher/cmake
 
 SET(libnabo_DIR "C:/dev/libnabo_rel/share/libnabo/cmake" CACHE PATH "")
 
-#SET(OSQP_INCLUDE_DIR "C:/dev/osqp/install/include" CACHE PATH "")
+SET(OSQP_INCLUDE_DIR "C:/dev/osqp-1.0.0.b1/include" CACHE PATH "")
 
-#SET(OSQP_LIBRARIES "C:/dev/osqp/install/lib/osqp.lib" CACHE FILEPATH "")
+SET(OSQP_LIBRARIES "C:/dev/osqp-1.0.0.b1/lib/osqpstatic.lib" CACHE FILEPATH "")
 
 SET(GMP_INCLUDE_DIR "C:/dev/CGAL-5.3-win64-auxiliary-libraries-gmp-mpfr/auxiliary/gmp/include" CACHE PATH "")
 

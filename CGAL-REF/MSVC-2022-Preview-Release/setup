@@ -14,6 +14,7 @@ PATH="`cygpath C:/dev/zlib-1.2.11/install/bin`":$PATH
 PATH="`cygpath C:/dev/SCIP/bin`":$PATH
 PATH="`cygpath C:/dev/SOPLEX/bin`":$PATH
 PATH="`cygpath C:/Qt/5.15.2/msvc2015_64/bin`":$PATH
+PATH="`cygpath C:/dev/Qt6/6.6.0/msvc2019_64/bin`":$PATH
 PATH="`cygpath C:/dev/CMake/bin`":$PATH
 PATH=$BOOST_LIBRARYDIR:$PATH
 PATH=$VTK_BIN_DIR:$PATH

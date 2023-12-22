@@ -5,6 +5,7 @@ SET(VTK_DIR "C:/dev/VTK-8.2.0/build" CACHE PATH "")
 SET(TBB_DIR "C:/dev/tbb2019_20191006oss_win/tbb2019_20191006oss/cmake" CACHE PATH "")
 
 SET(Qt5_DIR "C:/Qt/5.15.2/msvc2015_64/lib/cmake/Qt5" CACHE PATH "")
+set(CMAKE_DISABLE_FIND_PACKAGE_Qt6 TRUE CACHE BOOL "")
 
 SET(EIGEN3_INCLUDE_DIR "C:/dev/eigen-3.4.0" CACHE PATH "")
 
@@ -18,9 +19,9 @@ SET(libpointmatcher_DIR "" CACHE PATH "")
 
 SET(libnabo_DIR "" CACHE PATH "")
 
-#SET(OSQP_INCLUDE_DIR "C:/dev/osqp/install/include" CACHE PATH "")
+SET(OSQP_INCLUDE_DIR "C:/dev/osqp-1.0.0.b1/include" CACHE PATH "")
 
-#SET(OSQP_LIBRARIES "C:/dev/osqp/install/lib/osqp.lib" CACHE FILEPATH "")
+SET(OSQP_LIBRARIES "C:/dev/osqp-1.0.0.b1/lib/osqpstatic.lib" CACHE FILEPATH "")
 
 SET(GMP_INCLUDE_DIR "C:/dev/CGAL-5.3-win64-auxiliary-libraries-gmp-mpfr/auxiliary/gmp/include" CACHE PATH "")
 
