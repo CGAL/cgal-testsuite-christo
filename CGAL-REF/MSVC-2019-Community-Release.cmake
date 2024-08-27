@@ -36,6 +36,8 @@ SET(Boost_ROOT "C:/dev/boost_1_79_0/lib64-msvc-14.2/cmake/Boost-1.79.0" CACHE PA
 
 SET(ZLIB_INCLUDE_DIR "C:/dev/zlib-1.2.11/install/include;C:/dev/zlib-1.2.11/install" CACHE PATH "")
 
+SET(nlohmann_json_DIR "C:/dev/json/build" CACHE PATH "")
+
 SET(CMAKE_BUILD_TYPE "Release" CACHE STRING "")
 
 SET(CMAKE_CXX_FLAGS "/W3 /GR /EHsc /fp:strict /fp:except- /wd4503 /bigobj /MD /permissive- -DCGAL_INCLUDE_WINDOWS_DOT_H -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS" CACHE STRING "")
