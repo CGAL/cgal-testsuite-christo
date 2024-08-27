@@ -6,6 +6,7 @@ export CONFIG_TYPE=Release
 declare -x ZLIB_ROOT="`cygpath C:/dev/zlib-1.2.11/install`"
 declare -x BOOST_LIBRARYDIR="`cygpath C:/dev/boost/install_dir/lib`"
 declare -x VTK_BIN_DIR=`cygpath 'C:\dev\VTK-8.2.0\build\bin\Release'`
+declare -x OpenMesh_DIR=`cygpath 'C:/dev/OpenMesh-11.0.0/build'`
 
 PATH="`cygpath C:/dev/tbb2019_20191006oss_win/tbb2019_20191006oss/bin/intel64/vc14`":$PATH
 PATH="`cygpath C:/dev/CGAL-5.3-win64-auxiliary-libraries-gmp-mpfr/auxiliary/gmp/lib`":$PATH
