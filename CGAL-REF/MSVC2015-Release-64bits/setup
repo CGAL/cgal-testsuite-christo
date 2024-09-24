@@ -16,6 +16,8 @@ PATH=$BOOST_LIBRARYDIR:$PATH
 PATH=$VTK_BIN_DIR:$PATH
 PATH="`cygpath C:/Qt/5.15.2/msvc2015_64/bin`":$PATH
 PATH="`cygpath C:/dev/CMake/bin`":$PATH
+PATH="`cygpath C:/dev/LAStools_240805_install/lib/LASlib/Release`":$PATH
+
 #/usr/lib/lapack
 #/cygdrive/c/dev/osqp/install/bin
 declare -x PATH=$CYGPATH:$PATH

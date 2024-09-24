@@ -11,7 +11,11 @@ SET(EIGEN3_INCLUDE_DIR "C:/dev/eigen-3.4.0" CACHE PATH "")
 
 SET(SCIP_DIR "C:/dev/SCIP/lib/cmake/scip" CACHE PATH "")
 
-SET(Ceres_DIR "C:/dev/Ceres/lib/cmake/Ceres" CACHE PATH "")
+SET(LASLIB_INCLUDE_DIR "C:/dev/LAStools_240805_install/include/LASlib" CACHE PATH "")
+SET(LASZIP_INCLUDE_DIR "C:/dev/LAStools_240805_install/include/LASlib" CACHE PATH "")
+SET(LASLIB_LIBRARIES "C:/dev/LAStools_240805/LASlib/lib/Release/LASlib.lib" CACHE PATH "")
+
+SET(Eigen3_DIR "C:/dev/eigen-3.4.0/share/eigen3/cmake" CACHE PATH "")
 
 SET(OpenGR_DIR "C:/dev/OpenGR/lib/cmake/opengr" CACHE PATH "")
 

@@ -6,7 +6,7 @@ export CONFIG_TYPE=Release
 declare -x ZLIB_ROOT="`cygpath C:/dev/zlib-1.2.11/install`"
 declare -x BOOST_LIBRARYDIR="`cygpath C:/dev/boost/install_dir/lib`"
 declare -x VTK_BIN_DIR=`cygpath 'C:\dev\VTK-8.2.0\build\bin\Release'`
-declare -x OpenMesh_DIR=`cygpath 'C:/dev/OpenMesh-11.0.0/build'`
+declare -x OpenMesh_ROOT=`cygpath 'C:\dev\OpenMesh-11.0.0\build'`
 
 PATH="`cygpath C:/dev/tbb2019_20191006oss_win/tbb2019_20191006oss/bin/intel64/vc14`":$PATH
 PATH="`cygpath C:/dev/CGAL-5.3-win64-auxiliary-libraries-gmp-mpfr/auxiliary/gmp/lib`":$PATH
@@ -17,6 +17,9 @@ PATH="`cygpath C:/dev/SOPLEX/bin`":$PATH
 PATH="`cygpath C:/Qt/5.15.2/msvc2015_64/bin`":$PATH
 PATH="`cygpath C:/dev/Qt6/6.6.0/msvc2019_64/bin`":$PATH
 PATH="`cygpath C:/dev/CMake/bin`":$PATH
+PATH="`cygpath C:/dev/LAStools_240805_install/lib/LASlib/Release`":$PATH
+PATH="`cygpath C:/dev/SuiteSparse-5.13.0-cmake.4-vc16-Win64-Release-shared-gpl-metis/bin`":$PATH
+PATH="`cygpath C:/dev/glog/bin`":$PATH
 PATH=$BOOST_LIBRARYDIR:$PATH
 PATH=$VTK_BIN_DIR:$PATH
 
