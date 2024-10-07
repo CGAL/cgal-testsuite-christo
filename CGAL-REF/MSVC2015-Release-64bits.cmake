@@ -20,8 +20,8 @@ SET(Eigen3_DIR "C:/dev/eigen-3.4.0/share/eigen3/cmake" CACHE PATH "")
 SET(OpenGR_DIR "C:/dev/OpenGR/lib/cmake/opengr" CACHE PATH "")
 
 SET(libpointmatcher_DIR "" CACHE PATH "")
-
 SET(libnabo_DIR "" CACHE PATH "")
+set(CMAKE_DISABLE_FIND_PACKAGE_libpointmatcher TRUE CACHE BOOL "")
 
 SET(OSQP_INCLUDE_DIR "C:/dev/osqp-1.0.0.b1/include" CACHE PATH "")
 

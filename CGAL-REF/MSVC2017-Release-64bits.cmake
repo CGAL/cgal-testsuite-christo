@@ -23,8 +23,8 @@ SET(OpenGR_DIR "C:/dev/OpenGR/lib/cmake/opengr" CACHE PATH "")
 SET(OpenMesh_DIR "C:/dev/OpenMesh-11.0.0/build2017" CACHE PATH "")
 
 SET(libpointmatcher_DIR "" CACHE PATH "")
-
 SET(libnabo_DIR "" CACHE PATH "")
+set(CMAKE_DISABLE_FIND_PACKAGE_libpointmatcher TRUE CACHE BOOL "")
 
 SET(OSQP_INCLUDE_DIR "C:/dev/osqp-1.0.0.b1/include" CACHE PATH "")
 
