@@ -2,7 +2,7 @@ SET(ITK_DIR "C:/dev/InsightToolkit-5.2.0/build" CACHE PATH "")
 
 SET(VTK_DIR "C:/dev/VTK-8.2.0/build" CACHE PATH "")
 
-SET(TBB_DIR "C:/dev/tbb2019_20191006oss_win/tbb2019_20191006oss/cmake" CACHE PATH "")
+SET(TBB_DIR "C:/dev/oneTBB-2021.13.0/lib/cmake/TBB" CACHE PATH "")
 
 SET(Qt5_DIR "C:/Qt/5.15.2/msvc2015_64/lib/cmake/Qt5" CACHE PATH "")
 set(CMAKE_DISABLE_FIND_PACKAGE_Qt6 TRUE CACHE BOOL "")
