@@ -1,4 +1,5 @@
 declare -x CYGPATH="$PATH"
+declare -x CGAL_SUMMARY_NAME="MSVC-2015-Release"
 source "C:/CGAL_ROOT/CGAL-REF/MSVC2015-Release-64bits/setup_platform"
 export INIT_FILE="C://CGAL_ROOT//CGAL-REF//MSVC2015-Release-64bits.cmake"
 export CONFIG_TYPE=Release

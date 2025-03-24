@@ -23,9 +23,8 @@ SET(libpointmatcher_DIR "" CACHE PATH "")
 SET(libnabo_DIR "" CACHE PATH "")
 set(CMAKE_DISABLE_FIND_PACKAGE_libpointmatcher TRUE CACHE BOOL "")
 
-SET(OSQP_INCLUDE_DIR "C:/dev/osqp-1.0.0.b1/include" CACHE PATH "")
-
-SET(OSQP_LIBRARIES "C:/dev/osqp-1.0.0.b1/lib/osqpstatic.lib" CACHE FILEPATH "")
+SET(OSQP_INCLUDE_DIR "C:/dev/osqp/include" CACHE PATH "")
+SET(OSQP_LIBRARIES "C:/dev/osqp/lib/osqpstatic.lib" CACHE FILEPATH "")
 
 SET(GMP_INCLUDE_DIR "C:/dev/CGAL-5.3-win64-auxiliary-libraries-gmp-mpfr/auxiliary/gmp/include" CACHE PATH "")
 
@@ -61,6 +60,8 @@ SET(WITH_MPFR ON CACHE BOOL "")
 
 SET(WITH_NTL OFF CACHE BOOL "")
 
-SET(CMAKE_GENERATOR "Visual Studio 16 2019" CACHE STRING "")
+SET(CMAKE_GENERATOR "Visual Studio 17 2022" CACHE STRING "")
 
 SET(CMAKE_GENERATOR_TOOLSET "v140" CACHE STRING "")
+
+SET(CMAKE_SYSTEM_VERSION "10.0.22621.0"  CACHE STRING "")
