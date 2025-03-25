@@ -1,6 +1,6 @@
 SET(ITK_DIR "C:/dev/InsightToolkit-5.2.0/build" CACHE PATH "")
 
-SET(VTK_DIR "C:/dev/VTK-8.2.0/build" CACHE PATH "")
+SET(VTK_DIR "C:/dev/VTK-9.4.1/build" CACHE PATH "")
 
 SET(TBB_DIR "C:/dev/oneTBB-2021.13.0/lib/cmake/TBB" CACHE PATH "")
 
@@ -26,9 +26,8 @@ SET(libpointmatcher_DIR "" CACHE PATH "")
 SET(libnabo_DIR "" CACHE PATH "")
 set(CMAKE_DISABLE_FIND_PACKAGE_libpointmatcher TRUE CACHE BOOL "")
 
-SET(OSQP_INCLUDE_DIR "C:/dev/osqp-1.0.0.b1/include" CACHE PATH "")
-
-SET(OSQP_LIBRARIES "C:/dev/osqp-1.0.0.b1/lib/osqpstatic.lib" CACHE FILEPATH "")
+SET(OSQP_INCLUDE_DIR "C:/dev/osqp/include" CACHE PATH "")
+SET(OSQP_LIBRARIES "C:/dev/osqp/lib/osqpstatic.lib" CACHE FILEPATH "")
 
 SET(GMP_INCLUDE_DIR "C:/dev/CGAL-5.3-win64-auxiliary-libraries-gmp-mpfr/auxiliary/gmp/include" CACHE PATH "")
 
@@ -38,7 +37,7 @@ SET(MPFR_INCLUDE_DIR "C:/dev/CGAL-5.3-win64-auxiliary-libraries-gmp-mpfr/auxilia
 
 SET(MPFR_LIBRARIES "C:/dev/CGAL-5.3-win64-auxiliary-libraries-gmp-mpfr/auxiliary/gmp/lib/libmpfr-4.lib" CACHE PATH "")
 
-SET(Boost_ROOT "C:/dev/boost_1_72_0" CACHE PATH "")
+SET(Boost_ROOT "C:/dev/boost_1_87_0" CACHE PATH "")
 SET(Boost_NO_BOOST_CMAKE ON CACHE BOOL "")
 
 SET(ZLIB_INCLUDE_DIR "C:/dev/zlib-1.2.11/install/include;C:/dev/zlib-1.2.11/install" CACHE PATH "")
@@ -64,6 +63,6 @@ SET(WITH_MPFR ON CACHE BOOL "")
 
 SET(WITH_NTL OFF CACHE BOOL "")
 
-SET(CMAKE_GENERATOR "Visual Studio 16 2019" CACHE STRING "")
+SET(CMAKE_GENERATOR "Visual Studio 17 2022" CACHE STRING "")
 
 SET(CMAKE_GENERATOR_TOOLSET "v141" CACHE STRING "")
