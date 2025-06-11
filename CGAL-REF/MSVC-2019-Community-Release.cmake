@@ -1,14 +1,15 @@
 SET(ITK_DIR "C:/dev/InsightToolkit-5.2.0/build" CACHE PATH "")
 
-SET(VTK_DIR "C:/dev/VTK-8.2.0/build" CACHE PATH "")
+SET(VTK_DIR "C:/dev/VTK-9.4.1/build" CACHE PATH "")
 
 SET(TBB_DIR "C:/dev/oneTBB-2021.13.0/lib/cmake/TBB" CACHE PATH "")
 
 SET(Qt5_DIR "C:/Qt/5.15.2/msvc2015_64/lib/cmake/Qt5" CACHE PATH "")
 
-SET(Qt6_DIR "C:/dev/Qt6/6.6.0/msvc2019_64/lib/cmake/Qt6" CACHE PATH "")
+SET(Qt6_DIR "C:/dev/Qt6/6.6.3/msvc2019_64/lib/cmake/Qt6" CACHE PATH "")
 
 SET(EIGEN3_INCLUDE_DIR "C:/dev/eigen-3.4.0" CACHE PATH "")
+SET(Eigen3_DIR "C:/dev/eigen-3.4.0/share/eigen3/cmake" CACHE PATH "")
 
 SET(SCIP_DIR "C:/dev/SCIP/lib/cmake/scip" CACHE PATH "")
 
@@ -16,8 +17,7 @@ SET(LASLIB_INCLUDE_DIR "C:/dev/LAStools_240805_install/include/LASlib" CACHE PAT
 SET(LASZIP_INCLUDE_DIR "C:/dev/LAStools_240805_install/include/LASlib" CACHE PATH "")
 SET(LASLIB_LIBRARIES "C:/dev/LAStools_240805/LASlib/lib/Release/LASlib.lib" CACHE PATH "")
 
-SET(Ceres_DIR "C:/dev/Ceres2.2.0/lib/cmake/Ceres" CACHE PATH "")
-SET(Eigen3_DIR "C:/dev/eigen-3.4.0/share/eigen3/cmake" CACHE PATH "")
+set(CMAKE_DISABLE_FIND_PACKAGE_Ceres TRUE CACHE BOOL "Disable Ceres")
 
 SET(OpenGR_DIR "C:/dev/OpenGR/lib/cmake/opengr" CACHE PATH "")
 
@@ -27,9 +27,8 @@ SET(libpointmatcher_DIR "" CACHE PATH "")
 SET(libnabo_DIR "" CACHE PATH "")
 set(CMAKE_DISABLE_FIND_PACKAGE_libpointmatcher TRUE CACHE BOOL "")
 
-SET(OSQP_INCLUDE_DIR "C:/dev/osqp-1.0.0.b1/include" CACHE PATH "")
-
-SET(OSQP_LIBRARIES "C:/dev/osqp-1.0.0.b1/lib/osqpstatic.lib" CACHE FILEPATH "")
+SET(OSQP_INCLUDE_DIR "C:/dev/osqp/include" CACHE PATH "")
+SET(OSQP_LIBRARIES "C:/dev/osqp/lib/osqpstatic.lib" CACHE FILEPATH "")
 
 SET(GMP_INCLUDE_DIR "C:/dev/gmp-6.2.1-vcpkg/include" CACHE PATH "")
 
@@ -64,6 +63,6 @@ SET(WITH_MPFR ON CACHE BOOL "")
 
 SET(WITH_NTL OFF CACHE BOOL "")
 
-SET(CMAKE_GENERATOR "Visual Studio 16 2019" CACHE STRING "")
+SET(CMAKE_GENERATOR "Visual Studio 17 2022" CACHE STRING "")
 
 SET(CMAKE_GENERATOR_TOOLSET "v142" CACHE STRING "")

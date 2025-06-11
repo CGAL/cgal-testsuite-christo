@@ -8,6 +8,7 @@ SET(Qt5_DIR "C:/Qt/5.15.2/msvc2015_64/lib/cmake/Qt5" CACHE PATH "")
 set(CMAKE_DISABLE_FIND_PACKAGE_Qt6 TRUE CACHE BOOL "")
 
 SET(EIGEN3_INCLUDE_DIR "C:/dev/eigen-3.4.0" CACHE PATH "")
+SET(Eigen3_DIR "C:/dev/eigen-3.4.0/share/eigen3/cmake" CACHE PATH "")
 
 SET(SCIP_DIR "C:/dev/SCIP/lib/cmake/scip" CACHE PATH "")
 
@@ -15,8 +16,7 @@ SET(LASLIB_INCLUDE_DIR "C:/dev/LAStools_240805_install/include/LASlib" CACHE PAT
 SET(LASZIP_INCLUDE_DIR "C:/dev/LAStools_240805_install/include/LASlib" CACHE PATH "")
 SET(LASLIB_LIBRARIES "C:/dev/LAStools_240805/LASlib/lib/Debug/LASlib.lib" CACHE PATH "")
 
-#SET(Ceres_DIR "C:/dev/Ceres2.2.0/lib/cmake/Ceres" CACHE PATH "")
-#SET(Eigen3_DIR "C:/dev/eigen-3.4.0/share/eigen3/cmake" CACHE PATH "")
+set(CMAKE_DISABLE_FIND_PACKAGE_Ceres TRUE CACHE BOOL "Disable Ceres")
 
 SET(OpenGR_DIR "C:/dev/OpenGR/lib/cmake/opengr" CACHE PATH "")
 

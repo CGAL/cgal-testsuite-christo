@@ -4,26 +4,24 @@ source "C:/CGAL_ROOT/CGAL-REF/MSVC-2022-Community-Release/setup_platform"
 export INIT_FILE="C://CGAL_ROOT//CGAL-REF//MSVC-2022-Community-Release.cmake"
 export CONFIG_TYPE=Release
 
-declare -x BOOST_LIBRARYDIR=`cygpath 'C:\dev\boost_1_88_0\lib64-msvc-14.3'`
-declare -x VTK_BIN_DIR=`cygpath 'C:\dev\VTK-9.4.1\build\bin\Release'`
+declare -x BOOST_LIBRARYDIR=`cygpath 'C:\dev\boost_1_79_0\lib64-msvc-14.3'`
+declare -x VTK_BIN_DIR=`cygpath 'C:\dev\VTK-8.2.0\build\bin\Release'`
 declare -x OpenMesh_ROOT=`cygpath 'C:\dev\OpenMesh-11.0.0\build'`
 
 PATH="`cygpath C:/dev/oneTBB-2021.13.0/bin`":$PATH
-PATH="`cygpath C:/dev/gmp-6.3.0-vcpkg/bin`":$PATH
-PATH="`cygpath C:/dev/mpfr-4.2.2-vcpkg/bin`":$PATH
-
+PATH="`cygpath C:/dev/CGAL-5.3-win64-auxiliary-libraries-gmp-mpfr/auxiliary/gmp/lib`":$PATH
 PATH="`cygpath C:/dev/cygwin64/bin`":$PATH
 PATH="`cygpath C:/dev/zlib-1.2.11/install/bin`":$PATH
-PATH="`cygpath C:/dev/SCIP_gmp_6.3.0/bin`":$PATH
-PATH="`cygpath C:/dev/SOPLEX_gmp_6.3.0/bin`":$PATH
+PATH="`cygpath C:/dev/SCIP/bin`":$PATH
+PATH="`cygpath C:/dev/SOPLEX/bin`":$PATH
+PATH=$BOOST_LIBRARYDIR:$PATH
+PATH=$VTK_BIN_DIR:$PATH
 PATH="`cygpath C:/Qt/5.15.2/msvc2015_64/bin`":$PATH
 PATH="`cygpath C:/dev/Qt6/6.6.3/msvc2019_64/bin`":$PATH
 PATH="`cygpath C:/dev/CMake/bin`":$PATH
 PATH="`cygpath C:/dev/LAStools_240805_install/lib/LASlib/Release`":$PATH
 PATH="`cygpath C:/dev/SuiteSparse-5.13.0-cmake.4-vc16-Win64-Release-shared-gpl-metis/bin`":$PATH
 PATH="`cygpath C:/dev/glog/bin`":$PATH
-PATH=$BOOST_LIBRARYDIR:$PATH
-PATH=$VTK_BIN_DIR:$PATH
 
 #/usr/lib/lapack
 #/cygdrive/c/dev/osqp/install/bin
@@ -34,4 +32,4 @@ export Qt5_INSTALLATION_DIR="C:/Qt/5.15.2/msvc2015_64"
 export Qt6_INSTALLATION_DIR="C:/dev/Qt6/6.6.3/msvc2019_64"
 export Qt6_DIR="C:\dev\Qt6\6.6.3\msvc2019_64\lib\cmake\Qt6"
 export COLLECT_DEMOS_BINARIES='y'
-export KEEP_TESTS=""
+export KEEP_TESTS="y"
