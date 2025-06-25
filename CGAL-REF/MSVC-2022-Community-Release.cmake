@@ -42,6 +42,14 @@ SET(Boost_ROOT "C:/dev/boost_1_88_0/lib64-msvc-14.3/cmake/Boost-1.88.0" CACHE PA
 
 SET(ZLIB_INCLUDE_DIR "C:/dev/zlib-1.2.11/install/include;C:/dev/zlib-1.2.11/install" CACHE PATH "")
 
+SET(UMFPACK_DIR "C:/dev/vcpkg/installed/x64-windows-static/share/UMFPACK" CACHE PATH "")
+SET(AMD_DIR "C:/dev/vcpkg/installed/x64-windows-static/share/AMD" CACHE PATH "")
+SET(CHOLMOD_DIR "C:/dev/vcpkg/installed/x64-windows-static/share/CHOLMOD" CACHE PATH "")
+SET(COLAMD_DIR "C:/dev/vcpkg/installed/x64-windows-static/share/COLAMD" CACHE PATH "")
+SET(CCOLAMD_DIR "C:/dev/vcpkg/installed/x64-windows-static/share/CCOLAMD" CACHE PATH "")
+SET(CAMD_DIR "C:/dev/vcpkg/installed/x64-windows-static/share/CAMD" CACHE PATH "")
+SET(SuiteSparse_config_DIR "C:/dev/vcpkg/installed/x64-windows-static/share/SuiteSparse_config" CACHE PATH "")
+
 SET(nlohmann_json_DIR "C:/dev/json/build" CACHE PATH "")
 
 SET(CMAKE_BUILD_TYPE "Release" CACHE STRING "")
