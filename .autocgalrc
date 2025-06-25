@@ -13,6 +13,7 @@ COMPILERS_localhost="$COMPILERS_localhost MSVC2017-Debug-64bits"
 COMPILERS_localhost="$COMPILERS_localhost MSVC2017-Release-64bits"
 COMPILERS_localhost="$COMPILERS_localhost MSVC2015-Release-64bits"
 COMPILERS_localhost="$COMPILERS_localhost MSVC-2022-Preview-Release"
+COMPILERS_localhost="$COMPILERS_localhost ICPC-2025.1-Release"
 COMPILERS_localhost="$COMPILERS_localhost MSVC-2019-Community-Release"
 
 MYSHELL="bash --login"
