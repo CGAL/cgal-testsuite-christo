@@ -1,0 +1,2 @@
+echo "setup_platform"
+declare -x NUMBER_OF_PROCESSORS="12"
